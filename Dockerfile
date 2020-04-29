@@ -1,4 +1,4 @@
-FROM circleci/node:12.6.1
+FROM circleci/node:12.3.0
 
 RUN sudo apt-get update && \
     sudo apt-get install -y python python-dev python-pip python-virtualenv && \
